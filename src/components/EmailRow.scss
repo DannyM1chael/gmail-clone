@@ -1,0 +1,41 @@
+.emailRow {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+  z-index: 999;
+
+  &:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.24);
+  }
+
+  &__options {
+    display: flex;
+  }
+
+  &__title {
+    font-size: 13px;
+    flex: 0.3;
+  }
+
+  &__message > h4 {
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+  }
+
+  &__description {
+    font-weight: 400;
+    color: gray;
+  }
+
+  &__time {
+    padding-right: 15px;
+    font-size: 9px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,23 @@
+@mixin section {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 999;
+}
+
+.emailList {
+  flex: 1;
+  overflow: scroll;
+
+  &__settings {
+    @include section;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+
+  &__sections {
+    @include section;
+  }
+}
