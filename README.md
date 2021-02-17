@@ -1,4 +1,5 @@
 
+https://app-4e070.web.app/
 
 ## Get Firebase credentials
 ## create firebase.js in src dir
